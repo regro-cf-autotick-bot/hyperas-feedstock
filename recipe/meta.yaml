@@ -11,7 +11,7 @@ source:
   sha256: 2f82ad10dd37375330462a770fcdffc45aca735ca9dd5dc54f695fd48300bc5b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -37,10 +37,13 @@ test:
     - pip
 
 about:
-  home: https://pypi.org/project/hyperas/
+  home: http://github.com/maxpumperla/hyperas
   summary: Simple wrapper for hyperopt to do convenient hyperparameter optimization for Keras models
   license: MIT
+  license_family: MIT
   license_file: LICENSE
+  dev_url: http://github.com/maxpumperla/hyperas
+
 
 extra:
   recipe-maintainers:
