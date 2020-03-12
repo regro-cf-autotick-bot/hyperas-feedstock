@@ -31,10 +31,6 @@ requirements:
 test:
   imports:
     - hyperas
-  commands:
-    - pip check
-  requires:
-    - pip
 
 about:
   home: http://github.com/maxpumperla/hyperas
